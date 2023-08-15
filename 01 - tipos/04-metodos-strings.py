@@ -3,9 +3,9 @@ print(animal.upper())
 print(animal.lower())
 print(animal.strip().capitalize())  # Primera letra se pone en mayúscula
 print(animal.title())  # Primeras letras de todas las palabras se ponen en mayúscula
-print(animal.strip())  # Quista espacios
-print(animal.lstrip())  # Quista espacios a la izquierda
-print(animal.rstrip())  # Quista espacios a la derecha
+print(animal.strip())  # Quita espacios
+print(animal.lstrip())  # Quita espacios a la izquierda
+print(animal.rstrip())  # Quita espacios a la derecha
 print(animal.find("RR"))  # Busca una cadena de caracteres y nos devuelve el indice
 print(animal.find("c"))  # Cuando no existe la cadena devuelve -1
 print(
